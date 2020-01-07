@@ -1,0 +1,26 @@
+.navbar {
+    text-align: center;
+    background-color: #e84393;
+    color: #fff;
+    padding: 100px;
+}
+.navbar h1 {
+    font-size: 3rem;
+    color: #fff;
+}
+.navbar a {
+    color: #fff;
+    margin-right: 20px;
+}
+.navbar a:hover, .navbar a:focus, .navbar a:active {
+    color: #dfe6e9;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 50px;
+    }
+    .navbar a {        
+        margin-right: 10px;
+    }
+}
